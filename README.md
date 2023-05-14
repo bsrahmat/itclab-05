@@ -1,7 +1,7 @@
-# itclab-05 - iTCLab Kit Reading Using the Arduino+Python Programming Language
+# itclab-05 - iTCLab Kit Reading Using the Arduino and Python
 About Advanced iTCLab Research
 
-# iTCLab Kit Reading Using the Arduino+Python Programming Language
+# iTCLab Kit Programming Using the Arduino and Python
 
 <p align="center">
   <img src="https://github.com/bsrahmat/itclab-05/blob/main/jupyter0.jpg" alt="" class="img-responsive" width="700">
