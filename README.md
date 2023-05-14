@@ -7,31 +7,14 @@ About Advanced iTCLab Research
   <img src="https://github.com/bsrahmat/itclab-05/blob/main/jupyter0.jpg" alt="" class="img-responsive" width="700">
 </p>
 
-PWM stands for Pulse Width Modulation. So, PWM is a modulation technique that changes the pulse width with a fixed frequency and amplitude value. PWM can be considered the opposite of ADC (Analog to Digital Converter), which converts Analog signals to Digital. PWM or Pulse Width Modulation generates analog signals from Digital devices (iTCLab Kits).
+Required program files:
+The files needed to run the iTCLab Kit test using the Jupyter Notebook Python Programming Language, namely:
+Programs must be uploaded in the iTCLab Kit (05-iTCLab_PID.ino).
+Module Program File itclab.py.
+Script Program to run the iTCLab Kit Testing process using Python Jupyter Notebook (iTCLab_test.ipynb).
+The programs above are the development of programs that have been made by the BYU Campus.
 
-The PWM signal will remain ON for a specific time and then stalled or OFF for the rest of the period. What makes this PWM unique and more valuable is that we can specify how long the ON state should last by controlling the PWM duty cycle.
-
-The percentage of time the PWM signal remains ON time is known as the "duty cycle." The condition where the signal is always ON is called a 100% Duty Cycle, while the state where the movement is always OFF is called a 0% Duty Cycle.
-
-The formula for calculating the work cycle or duty cycle can be shown as the equation below.
-
-Duty Cycle = tON / (tON + tOFF)
-
-Or
-
-Duty Cycle = ton / ttotal
-
-Where :
-
-tON = ON time or time when the output voltage is high (high or 1)
-
-tOFF = OFF time or time when the output voltage is low (low or 0)
-
-ttotal = time of one cycle or the sum of tON and tOFF or also called the "one wave period."
-
-Duty Cycle = ON Time / (ON Time + OFF Time)
-
-The following image represents a PWM signal with a 60% duty cycle. As we can see, considering the entire time period (ON time + OFF time), the PWM signal is only ON for 60% of the time period.
+The following pictures are examples of the test results.
 
 <p align="center">
   <img src="https://github.com/bsrahmat/itclab-05/blob/main/jupyter01.jpg" alt="" class="img-responsive" width="700">
@@ -42,9 +25,9 @@ The following image represents a PWM signal with a 60% duty cycle. As we can see
 </p>
 
 
-To easily understand how the Pulse Width Modulation (PWM) works, you can read the following tutorial (Indonesian version): https://www.academia.edu/101739949.
+To easily understand how the iTCLab Kit Programming Using the Arduino and Python, you can read the following tutorial (Indonesian version): https://www.academia.edu/101741545.
 
-In a control system using a PID controller, PWM is the output of the PID controller, where this output is regulated to control the plant. So that the plant can produce results as expected. In practice, to know how the PID controller works with PWM settings, it can be implemented in the Internet-Based Temperature Control Lab (iTCLab) Kit.
+In practice, it can be implemented in the Internet-Based Temperature Control Lab (iTCLab) Kit.
 
 iTCLab - Internet-Based Temperature Control Lab. Temperature control kit for feedback control applications with an ESP32 Microcontroller, LED, two heaters, and two temperature sensors. The heating power output is adjusted to maintain the desired temperature setpoint. Heat energy from the heater is transferred by conduction, convection, and radiation to the temperature sensor. Heat is also transferred from the device to the environment.
 
