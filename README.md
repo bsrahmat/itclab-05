@@ -9,9 +9,9 @@ About Advanced iTCLab Research
 
 Required program files:
 The files needed to run the iTCLab Kit test using the Jupyter Notebook Python Programming Language, namely:
-Programs must be uploaded in the iTCLab Kit (05-iTCLab_PID.ino).
-Module Program File itclab.py.
-Script Program to run the iTCLab Kit Testing process using Python Jupyter Notebook (iTCLab_test.ipynb).
+1. Programs must be uploaded in the iTCLab Kit (05-iTCLab_PID.ino).
+2. Module Program File itclab.py.
+3. Script Program to run the iTCLab Kit Testing process using Python Jupyter Notebook (iTCLab_test.ipynb).
 The programs above are the development of programs that have been made by the BYU Campus.
 
 The following pictures are examples of the test results.
